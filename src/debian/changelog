@@ -1,53 +1,7 @@
-## Qt Bitcoin Trader
+qtbitcointrader (1.40.0-9) stable; urgency=medium
 
-This software helps you open and cancel orders very fast. Real time data monitoring.
-
-Developed on pure Qt, uses OpenSSL, AES 256 key and secret protection.
-
-I want to develop this Trader App so that it can be configured for any rule and strategy.
-
-Next ToDo:
-- Add realtime charts
-- Make rules more advanced
-
-## Official website
-
-* https://centrabit.com/index.php?m0prm=6
-
-## Download binaries
-
-* https://sourceforge.net/projects/bitcointrader/  `Win32`,`Mac`
-* http://www.softpedia.com/get/Others/Finances-Business/Bitcoin-Trader.shtml `Win32`
-* http://mac.softpedia.com/get/Finance/Qt-Bitcoin-Trader.shtml `Mac`
-* http://packages.gentoo.org/package/app-office/QtBitcoinTrader `Gentoo`
-* http://packages.altlinux.org/en/Sisyphus/srpms/QtBitcoinTrader `Alt Linux`
-
-## Compilation on Linux
-```
-sudo apt-get install g++ libssl-dev libglu1-mesa-dev qt5-qmake qtscript5-dev qtmultimedia5-dev
-export QT_SELECT=5
-qmake QtBitcoinTrader_Desktop.pro
-make && make install && make clean
-```
-
-## Demos
-
-* http://www.youtube.com/watch?v=C--P258DQkk
-
-## Forums
-
-* https://bitcointalk.org/index.php?topic=201062 `ENG`
-* https://bitcointalk.org/index.php?topic=218044 `RUS`
-* https://forum.btcsec.com/index.php?/topic/1496-qt-bitcoin-trader-klient-mtgox-pod-macwinlinux/ `RUS`
-
-## Social
-
-* http://www.facebook.com/QtBitcoinTrader
-* http://twitter.com/QtBitcoinTrader
-* http://vk.com/QtBitcoinTrader `RUS`
-
-## Change Log
-
+  * Initial release
+ 
 v1.40.09
 - Fixed FeeCalculator crash
 - Fixed account open orders filtering and calculations
@@ -261,7 +215,3 @@ v0.81
 
 v0.8
 - First public release
-
-Created by July IGHOR
-Contact: `julyighor@gmail.com`
-Donate: `1d6iMwjjNo8ZGYeJBZKXgcgVk9o7fXcjc`
